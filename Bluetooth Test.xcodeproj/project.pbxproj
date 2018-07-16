@@ -12,6 +12,7 @@
 		505D789A20F63CCA002D802A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505D789820F63CCA002D802A /* Main.storyboard */; };
 		505D789C20F63CCB002D802A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505D789B20F63CCB002D802A /* Assets.xcassets */; };
 		505D789F20F63CCB002D802A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505D789D20F63CCB002D802A /* LaunchScreen.storyboard */; };
+		505D78A720F63DB5002D802A /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D78A620F63DB5002D802A /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		505D789B20F63CCB002D802A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505D789E20F63CCB002D802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		505D78A020F63CCB002D802A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505D78A620F63DB5002D802A /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				505D789420F63CCA002D802A /* AppDelegate.swift */,
 				505D789620F63CCA002D802A /* ViewController.swift */,
+				505D78A620F63DB5002D802A /* BluetoothManager.swift */,
 				505D789820F63CCA002D802A /* Main.storyboard */,
 				505D789B20F63CCB002D802A /* Assets.xcassets */,
 				505D789D20F63CCB002D802A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				505D789720F63CCA002D802A /* ViewController.swift in Sources */,
+				505D78A720F63DB5002D802A /* BluetoothManager.swift in Sources */,
 				505D789520F63CCA002D802A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
